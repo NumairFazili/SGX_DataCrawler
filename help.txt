@@ -1,0 +1,8 @@
+1 For downloading a specific date click on menu option 1 (date format YYYYMMDD),
+1.1 To download a list of dates -> Add the list of dates to the download.py file preceded by a False statement,
+1.2 To download a range of dates (from start Date to end Date) -> Add the two dates to the downloads.py file preceded by a by statement,
+1.3 To download a single file just input the date,
+2 To redownload the failed downloads manually, use menu option 2. This will fetch the details from configFile and retry downloads based on the limit specified,
+2.1 To redownload all failed files use -1 as the NUMBER_RETRY parameter in config file,
+3 The Automated downloaded executes every day at 10PM and downloads the data for the day which is a given number of days before the present day, This parameter can be customized using the config file but the minmum value is set to 2 based on the availibility on SGX website,
+4. The crawler has a starting date and key value from which all the future key values are derieved
