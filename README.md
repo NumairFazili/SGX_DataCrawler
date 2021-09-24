@@ -5,7 +5,7 @@ Console based python application for downloading SGX derivatives data. The appli
 * List of dates
 * Range of dates
 
-We also use an automated script that downloads the corresponding files periodically at a speicifed time period and retires previously failed downloads.   
+We also use an automated script that downloads the corresponding files periodically and retires previously failed downloads.   
 
 ### Usage
 
